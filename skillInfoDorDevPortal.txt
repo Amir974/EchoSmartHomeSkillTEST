@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "intent": "SetTempIntent",
+      "slots": [
+        {
+          "name": "ActionType",
+          "type": "LIST_OF_ACTION_TYPES"
+        },
+        {
+          "name": "FanSpeed",
+          "type": "LIST_OF_FANSPEED"
+        },
+        {
+          "name": "Temprature",
+          "type": "LIST_OF_TEMP"
+        }        
+      ]
+    },
+    {
+      "intent": "WhatsTempIntent"
+    },
+    {
+      "intent": "ShutdownIntent"
+    },    
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+
+
+WhatsTempIntent what's the status
+WhatsTempIntent what is the status
+WhatsTempIntent what's the current temprature
+WhatsTempIntent what is the current temprature
+WhatsTempIntent temprature
+WhatsTempIntent current status
+WhatsTempIntent status
+SetTempIntent set {ActionType} fan {FanSpeed} temp {Temprature}SetTempIntent set {ActionType} temp {Temprature}
+ShutdownIntent close
+ShutdownIntent shut down
+ShutdownIntent off
